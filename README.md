@@ -11,6 +11,19 @@ Ici on devrait privilégier CNN (Deep Learning) plutôt que SVM traditionnel pou
 - OpenCV features + SVM : Simple, rapidePerformance limitée (~70-80%)
 - CNN (Transfer Learning) : CNN (Transfer Learning)
 
+## 🏆 Résultats
+
+| Modèle | Test Accuracy | F1-Score | Temps | Statut |
+|--------|---------------|----------|-------|--------|
+| **SVM + Features OpenCV** | **92.15%** | 0.9205 | 30s | ✅ **MEILLEUR** |
+| CNN from Scratch | 85.86% | 0.8566 | 20 min | 🟡 Décent |
+| Flavia PNN (2007) | 90.3% | - | - | 📚 Baseline académique |
+
+
+## 🎓 Conclusion
+
+Les **features manuelles** (OpenCV) surpassent le Deep Learning sur ce dataset de petite taille (1907 images). L'ajout de features **couleur et texture** améliore significativement la performance vs l'approche originale (shape seulement)
+
 ## Base de données
 [Base_de_donnees_flavia](https://sourceforge.net/projects/flavia/files/Leaf%20Image%20Dataset/)
 
