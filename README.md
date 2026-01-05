@@ -61,6 +61,7 @@ SVC(kernel='rbf', C=10, gamma='scale')
 - No systematic confusion pattern detected
 
 ### Comparison with Literature
+```
 | Method | Accuracy | Source |
 |--------|----------|--------|
 | Original PNN (2007) | 90.3% | Wu et al. |
