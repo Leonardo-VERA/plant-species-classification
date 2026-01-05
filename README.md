@@ -92,6 +92,7 @@ plant-species-classification/
 └── data/
     └── processed/
         └── dataset_splits.csv
+```
 
 * Taille totale : ~150-200 MB (images 224x224)
 
